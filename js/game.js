@@ -40,7 +40,7 @@ function playPair(card1Dom, card2Dom){
 		},
 		success: function(data){
 			// Before refreshing the game, wait a little bit so that the player can see
-			// what they card they flipped over.
+			// what card they flipped over.
 			setTimeout(function(){refreshGameContainer(data);},350);
 		}
 	});
